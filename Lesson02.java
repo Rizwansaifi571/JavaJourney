@@ -5,5 +5,12 @@ public class Lesson02 {
         String name = "Rizwan";
         System.out.println(myNum);
         System.out.println(name);
+
+
+        // Create variable without value.
+        String blank;
+        blank = "This is the value.";
+        System.out.println(blank);
+
     }
 }
