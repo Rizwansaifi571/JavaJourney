@@ -19,5 +19,19 @@ public class Lesson02 {
         System.out.println("New value : " + myNum);
 
     
+        // Final variable.
+        final String final_name = "RIZ";
+        //final_name = "Rizwan";
+        System.out.println(final_name);
+
+
+        // Other types.
+        float myfloat = 2.46435486f;
+        System.out.println(myfloat);
+        char myletter = 'D';
+        System.out.println(myletter);
+        boolean mybool = true;
+        System.out.println(mybool);
+
     }
 }
