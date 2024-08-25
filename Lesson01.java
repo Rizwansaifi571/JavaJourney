@@ -12,7 +12,12 @@ public class Lesson01 {
 
 // Try to print in same line by print() method.
         System.out.print("Next line printing above this stetement .");
-        System.out.print("Now check it it's really working");
+        System.out.println("Now check it it's really working !!");
+
+// NOw try to print and calculate some numbers
+        System.out.println(356);
+        System.out.println(3+5+6546+64);
+        System.out.println(6*5*54);
         
     }
 }
