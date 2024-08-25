@@ -33,5 +33,15 @@ public class Lesson02 {
         boolean mybool = true;
         System.out.println(mybool);
 
+
+        // Declare more than one variable at a same time.
+        int x = 4, y = 5, z = 6;
+        System.out.println(x + y + z);
+
+
+        // Assign same value with multiple variable.
+        int p, q, r;
+        p = q = r = 50;
+        System.out.println(p + q + r);
     }
 }
