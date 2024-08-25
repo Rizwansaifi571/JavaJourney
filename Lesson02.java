@@ -12,5 +12,12 @@ public class Lesson02 {
         blank = "This is the value.";
         System.out.println(blank);
 
+        
+        // Over-write Variable.
+        System.out.println("Old value : " + myNum);
+        myNum = 255;
+        System.out.println("New value : " + myNum);
+
+    
     }
 }
