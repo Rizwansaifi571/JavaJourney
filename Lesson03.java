@@ -20,5 +20,24 @@ public class Lesson03 {
         System.out.println(longnum);
 
 
-            }
+        // Floating type data type.
+
+        // float
+        float fltnum = 5.75f;
+        System.out.println(fltnum);
+        
+        // double
+        double dblnum = 19.99d;
+        System.out.println(dblnum);
+
+        // Scientific number.
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);
+
+        
+
+
+    }
 }
