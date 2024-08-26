@@ -37,7 +37,23 @@ public class Lesson03 {
         System.out.println(d1);
 
         
+        // left Data types.
+        
+        // boolean
+        boolean b1 = true;
+        boolean b2 = false;
+        System.out.println(b1); 
+        System.out.println(b2);
+        
+        // character
+        char c1 = 'C';
+        char c2 = 65;
+        System.out.println(c1);
+        System.out.println(c2);
 
+        // String.
+        String s1 = "I am the best";
+        System.out.println(s1);
 
     }
 }
