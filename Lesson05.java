@@ -4,5 +4,15 @@ public class Lesson05 {
         String greeting = "Hello";
         System.out.println(greeting);
 
+        // String Methods
+        String str = "I am Rizwan and i am the best";
+        
+        System.out.println("length of String : " + str.length());
+
+        System.out.println("String in Upper-case : " + str.toUpperCase());
+
+        System.out.println("String in lower-case : " + str.toLowerCase());
+
+        System.out.println("Index of Rizwan : " + str.indexOf("Rizwan"));
     }
 }
