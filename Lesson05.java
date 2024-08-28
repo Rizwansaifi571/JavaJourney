@@ -14,5 +14,11 @@ public class Lesson05 {
         System.out.println("String in lower-case : " + str.toLowerCase());
 
         System.out.println("Index of Rizwan : " + str.indexOf("Rizwan"));
+
+
+        String firstname = "Rizwan";
+        String lastname = "Saifi";
+
+        System.out.println(firstname.concat(lastname));
     }
 }
