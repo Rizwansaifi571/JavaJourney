@@ -29,7 +29,10 @@ public class Lesson07 {
         
 
 
-
+        // short hand if else
+        age = 5;
+        String result = (age > 18) ? "You are adult" : "You are child" ;
+        System.out.println(result);
 
     }
 }
