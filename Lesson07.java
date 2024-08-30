@@ -15,7 +15,21 @@ public class Lesson07 {
             System.out.println("you are not adult");
         }
 
+        // if - else statement
+        age = 56;
+        if (age > 12 & age < 18) {
+            System.out.println("You are not a child");
+        }
+        else if (age >= 18 & age < 50) {
+            System.out.println("You are adult");
+        }
+        else {
+            System.out.println("You are old");
+        }
         
+
+
+
 
     }
 }
