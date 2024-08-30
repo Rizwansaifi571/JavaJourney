@@ -17,6 +17,7 @@ public class Lesson06 {
 
         // Random number between 0 to 100
         System.out.println((int)(Math.random() * 101));
+        
     }
     
 }
