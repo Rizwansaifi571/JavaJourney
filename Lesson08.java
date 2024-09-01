@@ -53,6 +53,7 @@ public class Lesson08 {
                 break;
         }
 
+        
         // Close the scanner
         input.close();
     }
