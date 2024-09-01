@@ -16,6 +16,20 @@ public class Lesson11 {
 
         // Array length
         System.out.println(cars.length);
+
+
+        
+        // loop through an array
+        
+        // using for loop
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+        }
+
+        // using for each loop
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
     
 }
