@@ -26,6 +26,21 @@ public class Lesson10 {
         }
 
 
+        // Nested for loop
+        System.out.print("\nEnter n : ");
+        n = input.nextInt();
+        for (int i = 1; i <=n; i++) {
+            for (int k = 1; k <= n-i; k++){
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" * ");
+            }
+            System.out.println();
+
+        }
+
+
 
 
     
