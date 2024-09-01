@@ -5,7 +5,7 @@ public class Lesson10 {
     
         // Even number using for loop
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the value for checking prime number : ");
+        System.out.print("\nEnter the value for checking prime number : ");
 
         int n = input.nextInt();
         boolean result = true;
@@ -38,6 +38,14 @@ public class Lesson10 {
             }
             System.out.println();
 
+        }
+
+        
+        
+        // For Each Loop
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (String i : cars) {
+            System.out.println(i);
         }
 
 
