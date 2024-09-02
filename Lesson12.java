@@ -5,16 +5,25 @@ public class Lesson12 {
     }    
 
     // Function with parameter
-    static void myMethod2(String fname, int age) {
+    static void myMethod2 (String fname, int age) {
         System.out.println(fname + " is " + age);
     }
 
 
-
+    // Function with conditional statement
+    static void myMethod3 (int age) {
+        if (age < 18) {
+            System.out.println("You are not Eligible for Vote.");
+        }
+        else {
+            System.out.println("You are Eligible for Vote.");
+        }
+    }
     public static void main(String[] args) {
         myMethod1();
         myMethod2("Rizwan", 20);
         myMethod2("Jai", 21);
+        myMethod3(21);
     }
 
 }
