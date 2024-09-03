@@ -19,11 +19,21 @@ public class Lesson12 {
             System.out.println("You are Eligible for Vote.");
         }
     }
+
+
+    // Function with returns
+    static int myMethod4 (int x, int y) {
+        return x + y;
+    }
+
     public static void main(String[] args) {
         myMethod1();
         myMethod2("Rizwan", 20);
         myMethod2("Jai", 21);
         myMethod3(21);
+        System.out.println(myMethod4(5, 3));
     }
+
+    
 
 }
